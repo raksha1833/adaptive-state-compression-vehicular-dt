@@ -1,0 +1,63 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" length="5" maxSpeed="16.7" sigma="0.5"/>
+    <vType id="fast" accel="2.8" decel="4.5" length="5" maxSpeed="20.0" sigma="0.5"/>
+    <vType id="slow" accel="1.5" decel="3.5" length="5" maxSpeed="6.0" sigma="0.5"/>
+    <route id="w_n" edges="w_in n_out"/>
+    <route id="w_s" edges="w_in s_out"/>
+    <route id="n_e" edges="n_in e_out"/>
+    <route id="n_w" edges="n_in w_out"/>
+    <route id="e_n" edges="e_in n_out"/>
+    <route id="e_s" edges="e_in s_out"/>
+    <route id="s_e" edges="s_in e_out"/>
+    <route id="s_w" edges="s_in w_out"/>
+    <vehicle id="v0" type="car" route="w_s" depart="1.75"/>
+    <vehicle id="v1" type="car" route="w_n" depart="6.75"/>
+    <vehicle id="v2" type="car" route="e_n" depart="7.16"/>
+    <vehicle id="v3" type="car" route="n_w" depart="8.05"/>
+    <vehicle id="v4" type="car" route="n_w" depart="12.37"/>
+    <vehicle id="v5" type="car" route="n_e" depart="21.54"/>
+    <vehicle id="v6" type="car" route="w_s" depart="23.47"/>
+    <vehicle id="v7" type="car" route="w_s" depart="25.04"/>
+    <vehicle id="v8" type="car" route="s_e" depart="26.11"/>
+    <vehicle id="v9" type="car" route="w_n" depart="27.27"/>
+    <vehicle id="v10" type="car" route="w_n" depart="41.98"/>
+    <vehicle id="v11" type="car" route="w_s" depart="53.69"/>
+    <vehicle id="v12" type="car" route="n_w" depart="59.03"/>
+    <vehicle id="v13" type="car" route="n_w" depart="59.52"/>
+    <vehicle id="v14" type="car" route="w_n" depart="60.27"/>
+    <vehicle id="v15" type="car" route="n_w" depart="61.53"/>
+    <vehicle id="v16" type="car" route="s_e" depart="62.85"/>
+    <vehicle id="v17" type="car" route="n_w" depart="74.26"/>
+    <vehicle id="v18" type="car" route="s_w" depart="75.05"/>
+    <vehicle id="v19" type="car" route="e_n" depart="78.13"/>
+    <vehicle id="v20" type="car" route="w_n" depart="90.88"/>
+    <vehicle id="v21" type="car" route="n_e" depart="91.87"/>
+    <vehicle id="v22" type="car" route="s_e" depart="98.50"/>
+    <vehicle id="v23" type="car" route="e_s" depart="102.20"/>
+    <vehicle id="v24" type="car" route="e_n" depart="113.92"/>
+    <vehicle id="v25" type="car" route="n_e" depart="136.45"/>
+    <vehicle id="v26" type="car" route="n_w" depart="144.78"/>
+    <vehicle id="v27" type="car" route="e_s" depart="147.13"/>
+    <vehicle id="v28" type="car" route="w_s" depart="149.05"/>
+    <vehicle id="v29" type="car" route="w_s" depart="155.89"/>
+    <vehicle id="v30" type="car" route="s_e" depart="159.10"/>
+    <vehicle id="v31" type="car" route="w_s" depart="163.01"/>
+    <vehicle id="v32" type="car" route="e_s" depart="167.00"/>
+    <vehicle id="v33" type="car" route="e_s" depart="171.63"/>
+    <vehicle id="v34" type="car" route="e_n" depart="172.65"/>
+    <vehicle id="v35" type="car" route="w_n" depart="175.47"/>
+    <vehicle id="v36" type="car" route="s_w" depart="182.71"/>
+    <vehicle id="v37" type="car" route="w_s" depart="188.50"/>
+    <vehicle id="v38" type="car" route="s_e" depart="190.23"/>
+    <vehicle id="v39" type="car" route="w_s" depart="197.03"/>
+    <vehicle id="v40" type="car" route="e_n" depart="198.85"/>
+    <vehicle id="v41" type="car" route="e_s" depart="217.57"/>
+    <vehicle id="v42" type="car" route="n_w" depart="217.92"/>
+    <vehicle id="v43" type="car" route="w_s" depart="218.55"/>
+    <vehicle id="v44" type="car" route="w_n" depart="223.94"/>
+    <vehicle id="v45" type="car" route="n_w" depart="228.82"/>
+    <vehicle id="v46" type="car" route="e_n" depart="232.66"/>
+    <vehicle id="v47" type="car" route="w_s" depart="240.89"/>
+    <vehicle id="v48" type="car" route="n_w" depart="258.45"/>
+    <vehicle id="v49" type="car" route="w_s" depart="262.74"/>
+</routes>

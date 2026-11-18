@@ -1,0 +1,16 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" length="5" maxSpeed="16.7" sigma="0.5"/>
+    <vType id="fast" accel="2.8" decel="4.5" length="5" maxSpeed="20.0" sigma="0.5"/>
+    <vType id="slow" accel="1.5" decel="3.5" length="5" maxSpeed="6.0" sigma="0.5"/>
+    <route id="through" edges="road"/>
+    <vehicle id="v0" type="car" route="through" depart="6.75"/>
+    <vehicle id="v1" type="car" route="through" depart="8.05"/>
+    <vehicle id="v2" type="car" route="through" depart="23.47"/>
+    <vehicle id="v3" type="car" route="through" depart="60.27"/>
+    <vehicle id="v4" type="car" route="through" depart="74.26"/>
+    <vehicle id="v5" type="car" route="through" depart="113.92"/>
+    <vehicle id="v6" type="car" route="through" depart="172.65"/>
+    <vehicle id="v7" type="car" route="through" depart="182.71"/>
+    <vehicle id="v8" type="car" route="through" depart="198.85"/>
+    <vehicle id="v9" type="car" route="through" depart="240.89"/>
+</routes>

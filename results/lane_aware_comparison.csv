@@ -1,0 +1,16 @@
+scenario,strategy,car_seconds,total_bytes,pct_of_raw_bytes,pct_steps_transmitted,avg_position_error_m,avg_speed_error,avg_heading_error_deg,avg_aoi_s,peak_aoi_s,lane_changes_seen
+steady_speed,raw,12166,291984,100.0,100.0,0.0,0.0,0.0,0.0,0.0,66
+steady_speed,adaptive,12166,73985,25.3,67.0,1.373,0.125,0.35,0.33,1.0,66
+steady_speed,adaptive_lane_aware,12166,74274,25.4,67.0,1.362,0.125,0.347,0.33,1.0,66
+lane_change,raw,16358,392592,100.0,100.0,0.0,0.0,0.0,0.0,0.0,154
+lane_change,adaptive,16358,98774,25.2,64.7,1.231,0.121,0.337,0.353,1.0,154
+lane_change,adaptive_lane_aware,16358,99329,25.3,64.7,1.218,0.12,0.334,0.353,1.0,154
+accel_decel,raw,11074,265776,100.0,100.0,0.0,0.0,0.0,0.0,0.0,65
+accel_decel,adaptive,11074,73760,27.8,68.4,1.194,0.09,0.325,0.316,1.0,65
+accel_decel,adaptive_lane_aware,11074,74013,27.8,68.4,1.185,0.09,0.322,0.316,1.0,65
+turning,raw,11669,280056,100.0,100.0,0.0,0.0,0.0,0.0,0.0,33
+turning,adaptive,11669,82111,29.3,69.5,1.059,0.083,0.324,0.305,1.0,33
+turning,adaptive_lane_aware,11669,82228,29.4,69.5,1.054,0.083,0.323,0.305,1.0,33
+ALL,raw,51267,1230408,100.0,100.0,0.0,0.0,0.0,0.0,0.0,318
+ALL,adaptive,51267,328630,26.7,67.1,1.218,0.106,0.335,0.329,1.0,318
+ALL,adaptive_lane_aware,51267,329844,26.8,67.1,1.208,0.106,0.332,0.329,1.0,318

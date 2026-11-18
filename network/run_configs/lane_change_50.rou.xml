@@ -1,0 +1,56 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" length="5" maxSpeed="16.7" sigma="0.5"/>
+    <vType id="fast" accel="2.8" decel="4.5" length="5" maxSpeed="20.0" sigma="0.5"/>
+    <vType id="slow" accel="1.5" decel="3.5" length="5" maxSpeed="6.0" sigma="0.5"/>
+    <route id="through" edges="road"/>
+    <vehicle id="v0" type="slow" route="through" depart="1.75"/>
+    <vehicle id="v1" type="fast" route="through" depart="6.75"/>
+    <vehicle id="v2" type="fast" route="through" depart="7.16"/>
+    <vehicle id="v3" type="fast" route="through" depart="8.05"/>
+    <vehicle id="v4" type="fast" route="through" depart="12.37"/>
+    <vehicle id="v5" type="slow" route="through" depart="21.54"/>
+    <vehicle id="v6" type="fast" route="through" depart="23.47"/>
+    <vehicle id="v7" type="fast" route="through" depart="25.04"/>
+    <vehicle id="v8" type="fast" route="through" depart="26.11"/>
+    <vehicle id="v9" type="fast" route="through" depart="27.27"/>
+    <vehicle id="v10" type="slow" route="through" depart="41.98"/>
+    <vehicle id="v11" type="fast" route="through" depart="53.69"/>
+    <vehicle id="v12" type="fast" route="through" depart="59.03"/>
+    <vehicle id="v13" type="fast" route="through" depart="59.52"/>
+    <vehicle id="v14" type="fast" route="through" depart="60.27"/>
+    <vehicle id="v15" type="slow" route="through" depart="61.53"/>
+    <vehicle id="v16" type="fast" route="through" depart="62.85"/>
+    <vehicle id="v17" type="fast" route="through" depart="74.26"/>
+    <vehicle id="v18" type="fast" route="through" depart="75.05"/>
+    <vehicle id="v19" type="fast" route="through" depart="78.13"/>
+    <vehicle id="v20" type="slow" route="through" depart="90.88"/>
+    <vehicle id="v21" type="fast" route="through" depart="91.87"/>
+    <vehicle id="v22" type="fast" route="through" depart="98.50"/>
+    <vehicle id="v23" type="fast" route="through" depart="102.20"/>
+    <vehicle id="v24" type="fast" route="through" depart="113.92"/>
+    <vehicle id="v25" type="slow" route="through" depart="136.45"/>
+    <vehicle id="v26" type="fast" route="through" depart="144.78"/>
+    <vehicle id="v27" type="fast" route="through" depart="147.13"/>
+    <vehicle id="v28" type="fast" route="through" depart="149.05"/>
+    <vehicle id="v29" type="fast" route="through" depart="155.89"/>
+    <vehicle id="v30" type="slow" route="through" depart="159.10"/>
+    <vehicle id="v31" type="fast" route="through" depart="163.01"/>
+    <vehicle id="v32" type="fast" route="through" depart="167.00"/>
+    <vehicle id="v33" type="fast" route="through" depart="171.63"/>
+    <vehicle id="v34" type="fast" route="through" depart="172.65"/>
+    <vehicle id="v35" type="slow" route="through" depart="175.47"/>
+    <vehicle id="v36" type="fast" route="through" depart="182.71"/>
+    <vehicle id="v37" type="fast" route="through" depart="188.50"/>
+    <vehicle id="v38" type="fast" route="through" depart="190.23"/>
+    <vehicle id="v39" type="fast" route="through" depart="197.03"/>
+    <vehicle id="v40" type="slow" route="through" depart="198.85"/>
+    <vehicle id="v41" type="fast" route="through" depart="217.57"/>
+    <vehicle id="v42" type="fast" route="through" depart="217.92"/>
+    <vehicle id="v43" type="fast" route="through" depart="218.55"/>
+    <vehicle id="v44" type="fast" route="through" depart="223.94"/>
+    <vehicle id="v45" type="slow" route="through" depart="228.82"/>
+    <vehicle id="v46" type="fast" route="through" depart="232.66"/>
+    <vehicle id="v47" type="fast" route="through" depart="240.89"/>
+    <vehicle id="v48" type="fast" route="through" depart="258.45"/>
+    <vehicle id="v49" type="fast" route="through" depart="262.74"/>
+</routes>
