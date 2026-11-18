@@ -67,11 +67,11 @@ def fig(path, width=6.3 * inch):
 
 # ---- FILL THESE IN, then run:  python report/generate_report.py ----
 # Anything left as "" is printed as a blank line you can write on by hand.
-STUDENT_NAMES = ""
-ROLL_NUMBERS = ""
-GROUP_SECTION = ""
-MENTOR_NAME = ""
-SUBMISSION_DATE = ""
+STUDENT_NAMES = "Shreeraksha R J"
+ROLL_NUMBERS = "241CS155"
+GROUP_SECTION = "S1"
+MENTOR_NAME = "ANSHUL"
+SUBMISSION_DATE = "20/11/2026"
 # ---------------------------------------------------------------------
 
 BLANK = "_______________________________"

@@ -111,9 +111,6 @@ harmless "Retrying in 1 seconds" lines at startup.
 | 8 | `python analysis/results_by_scenario.py` | results per driving situation and per density | 4 tables |
 | 9 | `python experiments/lane_aware_experiment.py` | (extra) lane-change-aware Adaptive | `SAME (submitted results ...)` |
 
-Optional: to rebuild the PDF, type your name, roll number, group, mentor and date
-into the five `FILL THESE IN` lines at the top of `report/generate_report.py`, then
-run `python report/generate_report.py` (this overwrites `report/report.pdf`).
 
 To watch a setup run visually: `sumo-gui -c network/run_configs/turning_20.sumocfg`,
 then press the green play button.
