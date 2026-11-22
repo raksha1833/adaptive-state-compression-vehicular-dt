@@ -12,7 +12,7 @@ The written report: [`report/report.pdf`](report/report.pdf).
 
 ## Headline result
 
-All 20 setups (4 driving situations x 5 traffic densities), 300 simulated seconds each:
+All 20 setups (4 driving situations x 5 traffic densities), each run lasts until the last car finishes its trip (245 to 441 simulated seconds):
 
 | Strategy | % of raw bytes | Compression | Position error (m) | Peak AoI (s) | Packets delivered* | Max vehicles per RSU* |
 |---|---|---|---|---|---|---|
@@ -111,6 +111,8 @@ harmless "Retrying in 1 seconds" lines at startup.
 | 8 | `python analysis/results_by_scenario.py` | results per driving situation and per density | 4 tables |
 | 9 | `python experiments/lane_aware_experiment.py` | (extra) lane-change-aware Adaptive | `SAME (submitted results ...)` |
 
+Optional: to rebuild the PDF, run `python report/generate_report.py` (needs the outputs of steps 6, 8 and 9).
+Team details are set at the top of that file. This overwrites `report/report.pdf`.
 
 To watch a setup run visually: `sumo-gui -c network/run_configs/turning_20.sumocfg`,
 then press the green play button.
